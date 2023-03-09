@@ -4,9 +4,9 @@ import './sidebar.css'
 const Sidebar = () => {
   return (
     <div>
-        <nav id='sidebar' className='navbar bg-light'>
+        <nav id='sidebar' className=' pt-5 bg-light'>
                 <h1 className='navbar-brand'><span>Dev</span>challenge.io</h1>
-                <div className="nav-item">
+                <div  >
                     <ul className='navbar-nav'>
                         <li className='nav-item' >
                             <a href="#" className='nav-link'>Colors</a>

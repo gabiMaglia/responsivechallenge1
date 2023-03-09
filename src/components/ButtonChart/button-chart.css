@@ -7,3 +7,17 @@ h2 {
   color: #4f4f4f;
   /* text-align: left; */
 }
+p {
+  display: flex;
+  flex-direction: column;
+  
+  gap: 1em;
+}
+
+label {
+  font-family: "Ubuntu Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+}
