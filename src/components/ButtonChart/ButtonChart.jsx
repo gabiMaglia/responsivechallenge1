@@ -4,6 +4,7 @@ import "./button-chart.css";
 
 const ButtonChart = () => {
   return (
+    
     <div className="app">
       <div className="app-title  text-lg-start">
         <h1 className="title">Buttons </h1>
@@ -127,16 +128,16 @@ const ButtonChart = () => {
           <h3 className="my-4">Disable Variant</h3>
           <div className="col-12 d-flex gap-5">
             <p>
-              <label htmlFor="">
-                <Button>
-
+              <label htmlFor="disableBtn">
+                <Button theme='btn btn-primary' des='1'>
+                      Disable Button
                 </Button>
               </label>
             </p>
             <p>
-              <label htmlFor="">
-                <Button>
-                  
+              <label htmlFor="disableBtn2">
+                <Button theme='btn btn-link' des='1'  >
+                  Disable Link button
                 </Button>
               </label>
             </p>

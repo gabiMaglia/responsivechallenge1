@@ -10,7 +10,6 @@ h2 {
 p {
   display: flex;
   flex-direction: column;
-  
   gap: 1em;
 }
 
